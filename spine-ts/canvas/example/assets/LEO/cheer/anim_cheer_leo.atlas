@@ -1,0 +1,125 @@
+
+anim_cheer_leo.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chest
+  rotate: false
+  xy: 78, 63
+  size: 43, 61
+  orig: 43, 64
+  offset: 0, 3
+  index: -1
+Eyes
+  rotate: false
+  xy: 78, 38
+  size: 20, 4
+  orig: 20, 4
+  offset: 0, 0
+  index: -1
+HEad
+  rotate: false
+  xy: 157, 92
+  size: 27, 32
+  orig: 27, 32
+  offset: 0, 0
+  index: -1
+LArmBand
+  rotate: true
+  xy: 177, 45
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+LBicep
+  rotate: false
+  xy: 157, 64
+  size: 27, 26
+  orig: 27, 27
+  offset: 0, 1
+  index: -1
+LCalf
+  rotate: true
+  xy: 2, 2
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+LForarm
+  rotate: false
+  xy: 217, 105
+  size: 29, 19
+  orig: 29, 19
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 207, 71
+  size: 7, 26
+  orig: 7, 26
+  offset: 0, 0
+  index: -1
+LThigh
+  rotate: true
+  xy: 78, 44
+  size: 17, 37
+  orig: 18, 37
+  offset: 0, 0
+  index: -1
+Peace eyes
+  rotate: false
+  xy: 217, 101
+  size: 19, 2
+  orig: 19, 2
+  offset: 0, 0
+  index: -1
+RArmBand
+  rotate: false
+  xy: 157, 46
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+RBicep
+  rotate: false
+  xy: 186, 99
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+RCalf
+  rotate: false
+  xy: 123, 63
+  size: 32, 61
+  orig: 32, 61
+  offset: 0, 0
+  index: -1
+RForarm
+  rotate: true
+  xy: 186, 65
+  size: 32, 19
+  orig: 32, 19
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 65, 8
+  size: 8, 26
+  orig: 8, 26
+  offset: 0, 0
+  index: -1
+RThigh
+  rotate: true
+  xy: 117, 45
+  size: 16, 38
+  orig: 17, 38
+  offset: 0, 0
+  index: -1
+Shell
+  rotate: false
+  xy: 2, 36
+  size: 74, 88
+  orig: 74, 88
+  offset: 0, 0
+  index: -1
