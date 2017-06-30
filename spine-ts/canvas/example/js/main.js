@@ -236,7 +236,7 @@ function render() {
   skeletonRenderer.draw(skeleton);
 
   /* uncomment this if you prefer spine render timer to control easelJS update
-  //easelStage.update(); 
+  //easelStage.update();
 
   /*
   context.strokeStyle = "green";
