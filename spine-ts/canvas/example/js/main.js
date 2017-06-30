@@ -4,9 +4,15 @@ var easelStage = new createjs.Stage(easelCanvas);
 easelCanvas.width = window.innerWidth;
 easelCanvas.height = window.innerHeight;
 document.body.appendChild(easelCanvas);
-createjs.Ticker.addEventListener("tick", handleTick);
 
+/* We can reduce the amount of timers by calling easelStage.update() from spine render().
+ * Alternatively, we could remove the spine render() timer and use the createjs timer to call the spine render().
+ * The latter is being used here.
+ */
+
+createjs.Ticker.addEventListener("tick", handleTick);
 function handleTick(event) {
+  render(); // this is the spine render call
   easelStage.update();
 }
 
@@ -150,7 +156,8 @@ function init(assetObj) {
     spineCanvas.height = Math.ceil(bounds.size.y);
 
     addSpineToEasel(spineCanvas);
-    requestAnimationFrame(render);
+    /* spine render timer is being controlled by easelJS */
+    //requestAnimationFrame(render);
   }
 }
 
@@ -228,6 +235,9 @@ function render() {
   skeleton.updateWorldTransform();
   skeletonRenderer.draw(skeleton);
 
+  /* uncomment this if you prefer spine render timer to control easelJS update
+  //easelStage.update(); 
+
   /*
   context.strokeStyle = "green";
   context.beginPath();
@@ -238,7 +248,8 @@ function render() {
   context.stroke();
   */
 
-  requestAnimationFrame(render);
+  /* timer is being controlled by easelJS */
+  //requestAnimationFrame(render);
 }
 
 function resize() {
