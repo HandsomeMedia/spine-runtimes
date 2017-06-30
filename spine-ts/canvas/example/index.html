@@ -9,17 +9,18 @@
 	html {
 		height: 100%
 	}
-
-	canvas {
-		position: absolute;
-		width: 100%;
-		height: 100%;
+	#easelCanvas{
+		position: absolute;;
+		top: 0;
+		left: 0;
 	}
 </style>
 
 <body>
-	<canvas id="canvas"></canvas>
+	<script src="js/stats.min.js"></script>
+	<script src="../src/easeljs-0.8.2.combined.js"></script>
 	<script src="../../build/spine-canvas.js"></script>
+	<script src="js/spineEasel.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
